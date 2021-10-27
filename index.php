@@ -7,6 +7,6 @@
   <input type="submit" name="Enter the page"/><br><br>
  </form>
 <?php 
-echo "Hello ,"+$_POST['t'];
+echo "Hello ,".$_POST['t'];
 ?>
 </body>
