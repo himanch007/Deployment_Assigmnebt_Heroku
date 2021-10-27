@@ -3,8 +3,10 @@
 <body>
  <h1>Welcome to deployed page</h1>
  <form method="POST" action="login.html">
-  Enter your name:<input type="text"/required><br>
+  Enter your name:<input type="text" name="t"/required><br>
   <input type="submit" name="Enter the page"/>
  </form>
 </body>
-<?php ?>
+<?php 
+echo $_POST['t'];
+?>
