@@ -6,7 +6,7 @@
   Enter your name:<input type="text" name="t"/required><br>
   <input type="submit" name="Enter the page"/>
  </form>
-</body>
 <?php 
 echo $_POST['t'];
 ?>
+</body>
